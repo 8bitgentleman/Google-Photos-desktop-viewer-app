@@ -1,5 +1,5 @@
-# Google-Photos-desktop-viewer-app
-Google Photos desktop viewer app for OS X and Windows.
+# Google-Play-Books-desktop-viewer-app
+Google Play Books desktop viewer app for OS X and Windows.
 
 It uses Electron.
 

@@ -1,5 +1,5 @@
 {
-  "name": "Google-Photos",
+  "name": "Google-Play-Books",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,16 +12,16 @@
     "clean:win": "rm -rf ./dist/win",
  
     "pack": "npm run pack:osx && npm run build:win",
-    "pack:osx": "npm run clean:osx && electron-packager . \"Google Photos\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.2 --icon=assets/osx/icon.icns --ignore=\"dist|assets\"",
-    "pack:win": "npm run clean:win && electron-packager . \"Google Photos\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.2 --icon=assets/win/icon.ico --ignore=\"dist|assets\"",
+    "pack:osx": "npm run clean:osx && electron-packager . \"Google Play Books\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.2 --icon=assets/osx/icon.icns --ignore=\"dist|assets\"",
+    "pack:win": "npm run clean:win && electron-packager . \"Google Play Books\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.2 --icon=assets/win/icon.ico --ignore=\"dist|assets\"",
  
     "build": "npm run build:osx && npm run build:win",
-    "build:osx": "npm run pack:osx && electron-builder \"dist/osx/Google Photos-darwin-x64/Google Photos.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
-    "build:win": "npm run pack:win && electron-builder \"dist/win/Google Photos-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json",
+    "build:osx": "npm run pack:osx && electron-builder \"dist/osx/Google Play Books-darwin-x64/Google Play Books.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
+    "build:win": "npm run pack:win && electron-builder \"dist/win/Google Play Books-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json",
 
     "archive": "npm run archive:osx && npm run archive:win",
-    "archive:osx": "npm run build:osx && zip -j \"dist/osx/Google-Photos-osx.zip\" \"dist/osx/Google Photos.dmg\"",
-    "archive:win": "npm run build:win && zip -j \"dist/win/Google-Photos-win.zip\" \"dist/win/Google Photos Setup.exe\""
+    "archive:osx": "npm run build:osx && zip -j \"dist/osx/Google-Play-Books-osx.zip\" \"dist/osx/Google Play Books.dmg\"",
+    "archive:win": "npm run build:win && zip -j \"dist/win/Google-Play-Books-win.zip\" \"dist/win/Google Play Books Setup.exe\""
   },
   "keywords": [],
   "author": "",

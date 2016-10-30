@@ -1,6 +1,6 @@
 {
   "osx" : {
-    "title": "Google Photos",
+    "title": "Google Play Books",
     "background": "assets/osx/icon.png",
     "icon": "assets/osx/icon.icns",
     "icon-size": 80,
@@ -10,7 +10,7 @@
     ]
   },
   "win" : {
-    "title" : "Google Photos",
+    "title" : "Google Play Books",
     "icon" : "assets/win/icon.ico"
   }
 }

@@ -24,7 +24,7 @@ app.on('ready', function() {
     'height': mainWindowState.height,
     'icon': __dirname + "/img/icon.png",
   });
-  mainWindow.loadURL('https://photos.google.com/');
+  mainWindow.loadURL('https://play.google.com/books/uploads');
 
   mainWindow.on('closed', function() {
     mainWindow = null;
@@ -141,7 +141,7 @@ app.on('ready', function() {
 
   if (process.platform == 'darwin') {
     //var name = require('electron').app.getName();
-    var name = "Google フォト";
+    var name = "Google Play Books";
     template.unshift({
       label: name,
       submenu: [
