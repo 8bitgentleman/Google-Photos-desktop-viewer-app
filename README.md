@@ -1,9 +1,11 @@
 # Google-Play-Books-desktop-viewer-app
-Google Play Books desktop viewer app for OS X and Windows.
+Google Play Books desktop viewer app for OS X.
 
 It uses Electron.
 
-[You can download the app right now](https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases).
+[You can download the app right now](https://github.com/8bitgentleman/Google-Play-Books-desktop-viewer-app/releases).
+
+This is an stop-gap measure untill I have a custom desktop app from scratch.
 
 # Developments
 
